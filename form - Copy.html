@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>HTML Forms</title>
+    </head>
+    <H1>HTML Forms </H1>
+    <body>
+        
+        <form action="index.html">
+            <b><label for="username"><i> USERNAME:</i></label>
+            <input type="text" id="username"placeholder="username"required> 
+            <br><br>
+            <label for="email"><i> EMAIL:</i></label>
+            <input type="email" id="email"placeholder="email"required>
+            <br><br>
+            <label for="password"><i> PASSWORD:</i> </label>
+            <input type="password" id="password"placeholder="password"required>
+            <br>
+            <p><i> GENDER-</i></p></b>
+            <input type="radio" name="gender" value="male" id="option1">
+            <label for="option1">male</label>
+            <br><br>
+            <input type="radio" name="gender" value="female" id="option2">
+            <label for="option2">female</label>
+            <br><br>
+            <input type="radio" name="gender" value="other" id="option3">
+            <label for="option3">other</label> 
+
+            <br><br>
+             
+            <label for="question"><strong> SECURTIY QUESTION: so that we can confirm you are not a robot :)😁--------</strong><br></label>
+            <select name="question" id="question">
+                <option value="q0">CHOOSE</option>
+                <option value="q1">who is the most famous youtuber?</option>
+                <option value="q2">who is the richest person in the world?</option>
+                <option value="q3">can you dancee?</option>
+                </select>
+                <br>
+                <p>don't worry you have 3 questions to chose from</p>
+                <br>
+                <label for="answer">Enter your answer here</label>
+                <input type="text" id ="answer" name="answer">
+                <br><br>
+                <label for="bio">your bio</label>
+                <br><br>
+                <textarea name="bio" id="" cols="30" rows="10" placeholder="about you......."></textarea>
+                <br><br>
+                <input type="submit" submit value="submit">
+                
+
+
+        </form>
+    </body>
+</html>
